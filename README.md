@@ -11,23 +11,23 @@ Xplore is a dual-interface mobile platform designed to bridge the gap between tr
 ## Features
 
 ### For Travelers
-- 🔍 Browse and search available tours
-- 📍 Filter tours by location and type
-- 📅 View tour schedules and availability
-- 💰 See pricing and tour details
-- ⭐ Read and write reviews
-- 📖 Book tours with preferred guides
-- 👤 View guide profiles and ratings
-- 📊 Track booking history
+- Browse and search available tours
+- Filter tours by location and type
+- View tour schedules and availability
+- See pricing and tour details
+- Read and write reviews
+- Book tours with preferred guides
+- View guide profiles and ratings
+- Track booking history
 
 ### For Guides
-- 🎯 Create and manage tour guide profile
-- ➕ Create and publish tours
-- 📝 Define tour details (location, duration, price, schedule)
-- 📷 Upload tour and profile images
-- 📆 Manage tour schedules
-- 👥 View and manage bookings
-- 📈 Track tour performance and ratings
+- Create and manage tour guide profile
+- Create and publish tours
+- Define tour details (location, duration, price, schedule)
+- Upload tour and profile images
+- Manage tour schedules
+- View and manage bookings
+- Track tour performance and ratings
 
 ## Tech Stack
 
@@ -61,58 +61,6 @@ Xplore is a dual-interface mobile platform designed to bridge the gap between tr
 - **Image Loading**: Coil (v2.5.0)
 - **JSON Parsing**: Gson (v2.10.1)
 - **Coroutines**: Kotlin Coroutines for async operations
-
-## Project Structure
-
-```
-app/src/main/java/com/bugdroiders/xploreapp/
-├── adapters/              # RecyclerView adapters
-│   ├── GuideTourListAdapter.kt
-│   ├── RecyclerViewBookingAdapter.kt
-│   ├── RecyclerViewGuidesListAdapter.kt
-│   ├── RecyclerViewReviewsAdapter.kt
-│   └── RecyclerViewTourAdapter.kt
-├── data/                  # Data layer
-│   ├── api/              # Firebase API wrappers
-│   │   ├── FirestoreAPI.kt
-│   │   └── StoreAPI.kt
-│   └── caches/           # Local caching
-│       └── UserCache.kt
-├── fragments/            # UI fragments
-│   ├── GuideBookingFragment.kt
-│   ├── GuidesListFragment.kt
-│   ├── GuideToursFragment.kt
-│   ├── ToursListFragment.kt
-│   ├── TravelerBookingsFragment.kt
-│   ├── TravelerMainFragment.kt
-│   └── TravelerProfileFragment.kt
-├── models/               # Data models
-│   ├── Booking.kt
-│   ├── BookingDate.kt
-│   ├── Guide.kt
-│   ├── Review.kt
-│   ├── Schedule.kt
-│   ├── Tour.kt
-│   ├── User.kt
-│   └── UserType.kt
-├── viewModels/           # ViewModel layer
-│   ├── BookingViewModel.kt
-│   ├── GuideCreateProfileViewModel.kt
-│   └── GuideMainViewModel.kt
-└── Activities/           # Activity files
-    ├── LoginActivity.kt
-    ├── RegisterActivity.kt
-    ├── HomeActivity.kt
-    ├── TravelerMainActivity.kt
-    ├── GuideMainActivity.kt
-    ├── GuideCreateProfileActivity.kt
-    ├── GuideCreateTourActivity.kt
-    ├── TourDetailActivity.kt
-    ├── GuideTourDetailActivity.kt
-    ├── GuideDetailActivity.kt
-    ├── TravelerGuideDetailActivity.kt
-    └── GiveReviewActivity.kt
-```
 
 ## Getting Started
 
@@ -219,10 +167,6 @@ To build the app:
 
 **Version**: 1.0
 **Version Code**: 1
-
-## License
-
-This project is a senior project for educational purposes.
 
 ## Support
 
