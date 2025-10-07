@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "206028668085",
+    "project_id": "xplore-30e2f",
+    "storage_bucket": "xplore-30e2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206028668085:android:ce6f491be68ca64bb512fc",
+        "android_client_info": {
+          "package_name": "com.bugdroiders.xploreapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO5n7YrsXU8cRDmaW5ivierO6aaWOy9W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
